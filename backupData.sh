@@ -1,4 +1,4 @@
 #! /bin/bash
 
-rsync -av --delete /PRIMDATA/ /BACKUPDATA/ | tee /home/josh/logs/backupLog.txt
+rsync -av --delete /mnt/data_primary/ /mnt/data_backup/ | tee /home/josh/logs/backupLog.txt
 
